@@ -1,9 +1,9 @@
 # Data-Minning-Assignment2
 ## Dimensionality Reduction Techniques
 
-Colab Link: https://colab.research.google.com/drive/1raWbcn4i7uZrNCBPpaueXVUgIP2tKnf0?usp=sharing
-
 <img width="653" alt="Screen Shot 2021-11-10 at 9 13 20 PM" src="https://user-images.githubusercontent.com/70232769/141248054-f23363b9-970a-4ea5-9032-0cbf59bbc498.png">
+
+Colab Link: https://colab.research.google.com/drive/1raWbcn4i7uZrNCBPpaueXVUgIP2tKnf0?usp=sharing
 
 ### PCA
 From the graph we can see the two components definitely hold some information, especially for mnist digits, but clearly not enough to set all of them apart. It fails to model nonlinear relationships because it is linear.
