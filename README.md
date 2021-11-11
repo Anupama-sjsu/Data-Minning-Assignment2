@@ -11,7 +11,7 @@ It is particularly well suited for the visualization of high-dimensional dataset
 We can clearly see that the UMAP does a great job in separating the data points compared to t-SNE and PCA in terms of separation. It outperforms t-SNE and PCA. By looking at the plots, we can see mini-clusters that are being separated well. It is very effective for visualizing clusters or groups of data points and their relative proximities. UMAP is much faster than t-SNE.
 
 ### ISOMAP 
-It tries to preserve geodesic distance, or distance measured not in Euclidean space but on the curved surface of the manifold.Isomap performs better than PCA.
+It tries to preserve geodesic distance, or distance measured not in Euclidean space but on the curved surface of the manifold. Isomap performs better than PCA.
 
 ### LLE 
 Better computational time as it tends to accumulate sparse matrices, it is more efficient than the other algorithms in terms of computational space and time. In terms of consideration of the non-linearity of the structure, LLE goes beyond density modeling techniques such as local PCA. Similarly, other methods like Kernel PCA, Isomap are also unable to detect the features which are detected by LLE.
